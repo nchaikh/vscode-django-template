@@ -1,16 +1,14 @@
-# Jinja for Visual Studio Code
+# Django Templates for Visual Studio Code
 
-[![Join the chat at https://gitter.im/wholroyd/vscode-jinja](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/wholroyd/vscode-jinja?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+This extension adds language colorization support and user snippets for the Django template language to VS Code.
 
-This extension adds language colorization support for the Jinja template language to VS Code.
+This is based on the [Jinja extension](https://marketplace.visualstudio.com/items?itemName=wholroyd.jinja) by the awesome [wholroyd](https://github.com/wholroyd/vscode-jinja/).
 
-![IDE](https://raw.githubusercontent.com/wholroyd/vscode-jinja/master/example.png)
+![IDE](https://raw.githubusercontent.com/iambibhas/vscode-django-template/master/example.png)
 
 ## Using
 
-First, you will need to install Visual Studio Code `0.10`. In the command palette (`cmd-shift-p`) select `Install Extension` and choose `Jinja`.
-
-The downside of the Jinja language is that there is no defined file extension and as such, there is no way to detect it automatically in all cases. This extension will look for it in two file extensions - .html and .j2. The .j2 file extension is heavily used with Ansible which uses the Jinja2 engine underneath.
+In the command palette (`ctrl-shift-p`) select `Install Extension` and choose `Django Template`.
 
 ## Contributing
 

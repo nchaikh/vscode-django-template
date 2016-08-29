@@ -1,20 +1,20 @@
 {
-	"name": "jinja",
-	"version": "0.0.7",
-	"publisher": "wholroyd",
+	"name": "django-html",
+	"version": "1.0.0",
+	"publisher": "bibhasdn",
 	"author": {
-		"name": "William Holroyd"
+		"name": "Bibhas Debnath"
 	},
 	"license": "MIT",
 	"icon": "icon.png",
-	"description": "Jinja template language support for Visual Studio Code",
-	"displayName": "Jinja",
+	"description": "Django template language support for Visual Studio Code",
+	"displayName": "Django Template",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/wholroyd/vscode-jinja.git"
+		"url": "https://github.com/iambibhas/vscode-django-template.git"
 	},
 	"bugs": {
-		"url": "https://github.com/wholroyd/vscode-jinja/issues"
+		"url": "https://github.com/iambibhas/vscode-django-template/issues"
 	},
 	"categories": [
 		"Languages",
@@ -22,53 +22,33 @@
 		"Linters"
 	],
 	"engines": {
-		"vscode": "0.10.x"
+		"vscode": "^1.0.0"
 	},
 	"contributes": {
 		"languages": [
 			{
-				"id": "jinja",
-				"aliases": [
-					"Jinja"
-				],
-                "extensions": [".j2"],
-				"configuration": "./jinja.configuration.json"
-			},
-			{
 				"id": "html",
 				"aliases": [
-					"Jinja",
+					"Django Template",
 					"HTML"
 				],
-                "extensions": [".j2", ".html", ".htm"],
+                "extensions": [".html", ".htm"],
 				"configuration": "./jinja-html.configuration.json"
-			},
-			{
-				"id": "yaml",
-				"aliases": [
-					"Jinja",
-					"YAML"
-				],
-                "extensions": [".j2", ".eyaml", ".eyml", ".yaml", ".yml", ".sls"],
-				"configuration": "./jinja-yaml.configuration.json"
 			}
 		],
 		"grammars": [
 			{
-				"language": "jinja",
-				"scopeName": "source.jinja",
-				"path": "./syntaxes/jinja.json"
-			},
-			{
 				"language": "html",
-				"scopeName": "text.html.jinja",
-				"path": "./syntaxes/jinja-html.json"
-			},
-			{
-				"language": "yaml",
-				"scopeName": "text.yaml.jinja",
-				"path": "./syntaxes/jinja-yaml.json"
+				"scopeName": "text.html.django",
+				"path": "./syntaxes/django-html.json"
 			}
-		]
+		],
+		"snippets": [
+            {
+                "language": "html",
+				"scopeName": "text.html.django",
+                "path": "./snippets/django-snippets.json"
+            }
+        ]
 	}
 }
