@@ -33,7 +33,7 @@
 					"HTML"
 				],
                 "extensions": [".html", ".htm"],
-				"configuration": "./jinja-html.configuration.json"
+				"configuration": "./django-html.configuration.json"
 			}
 		],
 		"grammars": [
