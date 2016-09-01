@@ -8,6 +8,20 @@
             "{% endcomment %}"
         ]
     },
+    "CSRF": {
+        "prefix": "csrf",
+        "description": "CSRF token",
+        "body": [
+            "{% csrf_token %}"
+        ]
+    },
+    "Extends": {
+        "prefix": "extends",
+        "description": "Extends block",
+        "body": [
+            "{% extends \"$1\" %}"
+        ]
+    },
     "For loop": {
         "prefix": "for",
         "description": "For loop",
@@ -59,6 +73,13 @@
             "{% spaceless %}",
             "$1",
             "{% endspaceless %}"
+        ]
+    },
+    "Super": {
+        "prefix": "super",
+        "description": "Super block",
+        "body": [
+            "{{ block.super }}"
         ]
     },
     "Template Block": {
