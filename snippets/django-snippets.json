@@ -10,7 +10,7 @@
     },
     "tag": {
         "prefix": "tag",
-        "description": "tag",
+        "description": "Empty tag",
         "body": [
             "{% $1 %}"
         ]
