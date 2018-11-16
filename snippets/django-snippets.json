@@ -8,6 +8,13 @@
             "{% endcomment %}"
         ]
     },
+    "var": {
+        "prefix": "var",
+        "description": "Empty Var",
+        "body": [
+            "{{ $1 }}"
+        ]
+    },
     "tag": {
         "prefix": "tag",
         "description": "Empty tag",
