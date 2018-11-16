@@ -20,7 +20,7 @@
             "name": "comment.line.django"
         },
         {
-            "begin": "{% comment %}",
+            "begin": "{% comment",
             "captures": [
                 {
                     "name": "entity.other.django.delimiter.comment"
