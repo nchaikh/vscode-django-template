@@ -120,5 +120,13 @@
             "$1",
             "{% endwith %}"
         ]
+    },
+    "Static": {
+        "prefix": "static",
+        "description": "Static file",
+        "body": [
+            "{% static '$1' %}"
+        ]
     }
+
 }
